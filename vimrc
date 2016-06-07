@@ -12,7 +12,7 @@ set shiftwidth=2
 nnoremap <leader>n :set number!<return>
 nnoremap <leader>p :set paste!<return>
 
-let g:clang_format#command = "clang-format"
+let g:clang_format#auto_format = 1
 
 " vim-go mappings
 au FileType go nmap <leader>r <Plug>(go-run)
