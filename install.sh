@@ -10,7 +10,7 @@ checkout() {
 	then
 		git clone -q "$repo" "$path"
 	else
-		(cd "$path"; git fetch && git reset -q --hard)
+		git -C "$path" fetch -q && git -C "$path" reset --hard -q
 	fi
 }
 
