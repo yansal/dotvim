@@ -1,7 +1,7 @@
 #!/bin/sh -eu
 
-dotvim_dir=$(dirname "$0")
-ln -fs "$dotvim_dir/vimrc" ~/.vimrc
+dotvimdir=$(dirname "$0")
+ln -fs "$dotvimdir/vimrc" ~/.vimrc
 
 checkout() {
 	repo=$1
