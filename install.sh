@@ -18,4 +18,4 @@ checkout() {
 
 checkout https://github.com/tpope/vim-pathogen ~/.vim master
 checkout https://github.com/tpope/vim-sensible ~/.vim/bundle/vim-sensible master
-checkout https://github.com/fatih/vim-go ~/.vim/bundle/vim-go v1.20
+checkout https://github.com/fatih/vim-go ~/.vim/bundle/vim-go v1.21
